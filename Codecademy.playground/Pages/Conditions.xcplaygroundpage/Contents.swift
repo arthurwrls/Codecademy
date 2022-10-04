@@ -18,7 +18,7 @@ else if age >= 30, age < 40 {
     print("family")
 }
 else if age >= 40, age < 60 {
-    print("expirienced")
+    print("experienced")
 }
 else {
     print("old")
@@ -38,7 +38,7 @@ case 20...30:
 case 30...40:
     print("family")
 case 40...60:
-    print("expirienced")
+    print("experienced")
 default:
     print("old")
 }
