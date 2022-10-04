@@ -6,7 +6,7 @@ while guess != magicNum {
   magicNum = Int.random(in: 1...10)
 
     
-  /Print guessed numbers from 1 - 10 until it`s correct guessed
+  //Print guessed numbers from 1 - 10 until it`s correct guessed
   print("You guessed \(guess), and the number was \(magicNum)")
 }
 
