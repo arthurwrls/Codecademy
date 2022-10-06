@@ -28,7 +28,7 @@ if isPrime == true {
 
 // 3)
 let str: String = "Codecademy"
-print("Length of string is \(str.count) characters")
+print("Length of \(str) is \(str.count) characters")
 
 // 4)
 var stars = ""
