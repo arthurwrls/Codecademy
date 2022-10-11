@@ -27,7 +27,7 @@ while num != 0 {
 }
 
 print(result)
-// factorial using reppeat while
+// factorial using repeat while
 
 num = 5
 result = 1
