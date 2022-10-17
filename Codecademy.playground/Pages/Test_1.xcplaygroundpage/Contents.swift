@@ -5,6 +5,8 @@ var artHistory: Set = ["Samantha", "Vanessa", "Aldrian", "Cynara", "Kenny", "Dec
 var englishLiterature: Set = ["Gabby", "Jasmine", "Alex", "Alif", "Aldrian", "Adam", "Angela"]
 var computerScience: Set = ["Galina", "Kenny", "Sonny", "Alex", "Skyla"]
 
+
+
 var allStudents = spanish101.union(german101)
 allStudents = advancedCalculus.union(artHistory)
 allStudents = artHistory.union(englishLiterature)
@@ -37,12 +39,3 @@ for item in classSet {
 }
 
 print("Classes with 7+ students: \(sevenPlus) classes")
-
-allStudents.remove("Skyla")
-print("All students without Skyla: \(allStudents)")
-
-var fieldTrip = computerScience.union(advancedCalculus)
-print("Combine all students in computer science and advanced calculus")
-
-fieldTrip = fieldTrip.subtracting(german101)
-print("Students in field trip exluding german101: \(fieldTrip)")
