@@ -104,8 +104,8 @@ for morseValue in morseCodeArray {
         // if it's not in the dictionary, it's probably a space
 
     } else {
+        
         // Add a space to decodedMessage
-
         decodedMessage += " "
     }
 }
