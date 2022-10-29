@@ -96,6 +96,7 @@ for (letter, morseChar) in letterToMorse {
 
 // Go through each element in morseCodeArray and find the text value via the morseToLetter dictionary
 for morseValue in morseCodeArray {
+    
     // Check if the value exists in the morseToLetter dictionary
     if let letterChar = morseToLetter[morseValue] {
         // Append the values to decodedMessage
