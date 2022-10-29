@@ -88,6 +88,7 @@ morseCodeArray.append(currMorse)
 
 // Create an empty dictionary. This will hold morse code values as Keys and their english counter parts as Values
 var morseToLetter: [String: String] = [:]
+
 // Iterate through letterToMorse dictionary, add the keys as values and the values as keys to the morseToLetter dictionary
 for (letter, morseChar) in letterToMorse {
     morseToLetter[morseChar] = letter
