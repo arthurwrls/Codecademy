@@ -99,13 +99,12 @@ for morseValue in morseCodeArray {
     
     // Check if the value exists in the morseToLetter dictionary
     if let letterChar = morseToLetter[morseValue] {
-        // Append the values to decodedMessage
-
-        decodedMessage += letterChar
-        // if it's not in the dictionary, it's probably a space
-
-    } else {
         
+        // Append the values to decodedMessage
+        decodedMessage += letterChar
+
+        // if it's not in the dictionary, it's probably a space
+    } else {
         // Add a space to decodedMessage
         decodedMessage += " "
     }
