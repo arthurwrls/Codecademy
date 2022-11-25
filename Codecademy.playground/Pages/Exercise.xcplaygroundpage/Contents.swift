@@ -39,5 +39,4 @@ struct Regimen {
 }
 
 var mondayRegimen = Regimen(dayOfWeek: "Monday", exercises: [pushUp])
-
 print(mondayRegimen.printExercisePlan())
